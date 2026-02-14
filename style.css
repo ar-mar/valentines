@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;      
+    min-height: 100vh;
+    background-color: #ffe6e6;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    position: relative; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+#yesBtn {
+    background-color: #ff4d4d;
+    color: white;
+    justify-content: center;
+    font-family: 'Georgia', serif;
+}
+
+#noBtn {
+    background-color: #ccc;
+    color: white;
+    font-family: 'Georgia', serif;
+}
+
+.music-player {
+    margin: 40px auto;
+    width: 400px;   /* tamaño más compacto */
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.message-box {
+    max-width: 600px;        
+    margin: 0 auto;          
+    padding: 30px;
+    background-color: #fff0f5; 
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    font-family: 'Georgia', serif; /* tipografía más elegante */
+    text-align: center;      /* centrado del texto */
+    line-height: 1.6;        /* mejor legibilidad */
+}
+.message-box h1 {
+    font-size: 24px;
+    color: #ff4d6d;
+    margin-bottom: 20px;
+}
+.message-box p {
+    font-size: 18px;
+    color: #333;
+}
